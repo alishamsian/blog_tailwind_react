@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
@@ -22,10 +23,22 @@ const Nav = () => {
         </svg>
         </div>
         <ul className="flex items-center justify-between w-1/2">
-            <li>خانه</li>
-            <li>محصولات</li>
-            <li>درباره ما</li>
-            <li>تماس با ما</li>
+            <li>
+              <Link to="/" >خانه</Link>
+            </li>
+            
+            <li>
+              <Link to="/posts" >پست ها</Link>
+            </li>
+            
+            <li>
+              <Link to="/create" >افزودن پست</Link>
+            </li>
+            
+            <li>
+              <Link to="/aboutus" >درباره ما</Link>
+            </li>
+            
         </ul>
         
     </div>
