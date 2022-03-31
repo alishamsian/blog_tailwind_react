@@ -1,0 +1,102 @@
+[
+    {
+        "icon": "bx bxs-watch",
+        "title": "ساعت",
+        "background-color": "bg-red-500"
+    },
+    {
+        "icon": "bx bx-camera",
+        "title": "دوربین ",
+        "background-color" : "bg-green-700"
+    },
+    {
+        "icon": "bx bx-laptop",
+        "title": "لپ تاپ",
+        "background-color" : "bg-orange-500"
+    },
+    {
+        "icon": "bx bx-mobile-alt",
+        "title": "موبایل",
+        "background-color" : "bg-green-700"
+    },
+    {
+        "icon": "bx bx-devices",
+        "title": "تبلت",
+        "background-color" : "bg-teal-600"
+    },
+    {
+        "icon": "bx bx-cart",
+        "title": "سبد",
+        "background-color" : "bg-orange-500"
+    },
+    {
+        "icon": "bx bx-shopping-bag",
+        "title": "کیف",
+        "background-color" : "bg-green-700"
+    },
+    {
+        "icon": "bx bx-joystick",
+        "title": "بازی",
+        "background-color" : "bg-red-500"
+    },
+    {
+        "icon": "bx bxs-watch",
+        "title": "ساعت",
+        "background-color" : "bg-orange-500"
+    },
+    {
+        "icon": "bx bx-camera",
+        "title": "دوربین ",
+        "background-color" : "bg-green-700"
+    },
+    {
+        "icon": "bx bx-laptop",
+        "title": "لپ تاپ",
+        "background-color" : "bg-red-500"
+    },
+    {
+        "icon": "bx bx-mobile-alt",
+        "title": "موبایل",
+        "background-color" : "bg-teal-600"
+    },
+    {
+        "icon": "bx bx-devices",
+        "title": "تبلت",
+        "background-color" : "bg-green-700"
+    },
+    {
+        "icon": "bx bx-cart",
+        "title": "سبد",
+        "background-color" : "bg-red-500"
+    },
+    {
+        "icon": "bx bx-shopping-bag",
+        "title": "کیف",
+        "background-color" : "bg-teal-600"
+    },
+    {
+        "icon": "bx bx-joystick",
+        "title": "بازی",
+        "background-color" : "bg-orange-500"
+    },
+    {
+        "icon": "bx bxs-watch",
+        "title": "ساعت",
+        "background-color" : "bg-red-500"
+    },
+    {
+        "icon": "bx bx-camera",
+        "title": "دوربین ",
+        "background-color" : "bg-teal-600"
+    },
+    {
+        "icon": "bx bx-laptop",
+        "title": "لپ تاپ",
+        "background-color" : "bg-orange-500"
+    },
+    {
+        "icon": "bx bx-mobile-alt",
+        "title": "موبایل",
+        "background-color" : "bg-red-500"
+    }
+]

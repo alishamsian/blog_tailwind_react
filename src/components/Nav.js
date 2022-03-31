@@ -28,15 +28,15 @@ const Nav = () => {
             </li>
             
             <li>
+              <Link to="/category" >دسته بندی</Link>
+            </li>
+            
+            <li>
               <Link to="/posts" >پست ها</Link>
             </li>
             
             <li>
               <Link to="/create" >افزودن پست</Link>
-            </li>
-            
-            <li>
-              <Link to="/aboutus" >درباره ما</Link>
             </li>
             
         </ul>

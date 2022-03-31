@@ -6,8 +6,8 @@ import "./index.css";
 import Create from "./page/Create";
 import Home from "./page/Home";
 import SingalPost from "./page/SingalPost";
+import Category from "./page/Category";
 import Posts from "./page/Posts";
-import AboutUs from "./page/AboutUs";
 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create" element={<Create />} />
-        <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/posts" element={<Posts />} />
+        <Route path="/category" element={<Category />} />
         <Route path="/posts/:id" element={<SingalPost />} />
       </Routes>
       <Footer /> 
