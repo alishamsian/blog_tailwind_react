@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <div className=" w-full p-4 bg-white flex items-center justify-between sticky top-0  z-50 shadow-lg">
+    <div className=" hidden md:flex w-full p-4 bg-white items-center justify-between sticky top-0  z-50 shadow-lg">
         <div>
         <svg
           width="99"

@@ -1,8 +1,30 @@
 import React from 'react'
-
+import PostCard from '../components/PostCard'
 const Posts = () => {
   return (
-    <div>Posts</div>
+    <div className="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
+    <div className="mx-0 sm:mx-6">
+      <div className="flex flex-wrap justify-between pt-12 -mx-6 ">
+    
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+        <PostCard col="1/2" height_img="full" />
+
+      </div>
+    </div>
+  </div>
   )
 }
 

@@ -3,7 +3,7 @@ import React from "react";
 const PostCard = (props) => {
   return (
     <div
-      className={`w-full md:w-${props.col} p-6 flex flex-col flex-grow flex-shrink`}
+      className={`w-full md:w-${props.col} p-6 flex flex-col flex-grow flex-shrink `}
     >
       <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg ">
         <a href="#" className="flex flex-wrap no-underline hover:no-underline">

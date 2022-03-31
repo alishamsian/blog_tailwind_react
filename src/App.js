@@ -8,6 +8,7 @@ import Home from "./page/Home";
 import SingalPost from "./page/SingalPost";
 import Category from "./page/Category";
 import Posts from "./page/Posts";
+import BottomNav from "./components/BottomNav";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/posts/:id" element={<SingalPost />} />
       </Routes>
       <Footer /> 
+      <BottomNav />
       </>
   );
 }

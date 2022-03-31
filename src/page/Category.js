@@ -10,7 +10,7 @@ const Category = () => {
             {categoriesCard.map((item, index) => (
               <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink" key={index}>
                 <StatusCard
-                  color={item["background-color"]}
+                  color={item["background_color"]}
                   icon={item.icon}
                   title={item.title}
                 />
