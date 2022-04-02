@@ -97,6 +97,6 @@
     {
         "icon": "bx bx-mobile-alt",
         "title": "موبایل",
-        "background_color" : "bg-red-500"
+        "background_color" :"bg-red-500"
     }
 ]
