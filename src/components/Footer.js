@@ -1,36 +1,34 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 w-full hidden  mx-auto md:flex items-center px-2 py-8 mt-32">
-
-			<div className="w-full mx-auto flex flex-wrap items-center">
-				<div className="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
-					<a className="text-gray-900 no-underline hover:text-gray-900 hover:no-underline" href="#">
-						👻 <span className="text-base text-gray-200"> ALi Blog</span>
-					</a>
-				</div>
-				<div className="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
-					<ul className="list-reset flex justify-center flex-1 md:flex-none items-center">
-						<li>
-							<a className="inline-block py-2 px-3 text-white no-underline" href="#">خانه</a>
-						</li>
-						<li>
-							<a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-3" href="#">پست ها</a>
-						</li>
-						<li>
-							<a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-3" href="#">درباره ما</a>
-						</li>
-						<li>
-							<a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-3" href="#">تماس با ما</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-
-
-		</div>
+    <footer className="p-4 bg-cardOverlay rounded-lg shadow md:px-6 md:py-8 ">
+      <div className="sm:flex sm:items-center sm:justify-between md:px-16">
+        <Link to="/" className="flex items-center gap-2">
+          <p className="text-headingColor text-xl font-bold">Ali Blog</p>
+        </Link>
+        <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 ">
+          <li>
+            <a className="mr-4 hover:underline md:mr-6 ">درباره ما</a>
+          </li>
+          <li>
+            <a className="mr-4 hover:underline md:mr-6">ارتباط با ما</a>
+          </li>
+          <li>
+            <a className="mr-4 hover:underline md:mr-6 ">خدمات</a>
+          </li>
+        </ul>
+      </div>
+      <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+      <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        . All Rights Reserved.
+        <a href="#" className="hover:underline">
+          Ali Shamsian
+        </a>
+        © 2022
+      </span>
+    </footer>
   )
 }
 
